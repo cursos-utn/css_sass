@@ -1,0 +1,13 @@
+$body-bg: #eeeeee;
+$body-color: #111;
+$primary: red;
+
+@import "scss/bootstrap.scss";
+
+table {
+    @extend .table;
+}
+
+p {
+    @include make-row;
+}

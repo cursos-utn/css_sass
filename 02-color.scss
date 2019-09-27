@@ -1,0 +1,15 @@
+$colorPrimario: #aa0000;
+$colorSecundario: rgba(100,100,100, 0.5);
+
+div {
+    color: lighten($colorPrimario, 20%);
+}
+p {
+    color: darken($colorPrimario, 20%); 
+}
+span {
+    color: opacify($colorSecundario, 0.2);
+}
+.elemento2 {
+    color: transparentize($colorSecundario, 0.2);
+}
